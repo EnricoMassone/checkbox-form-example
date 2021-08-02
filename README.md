@@ -1,0 +1,1 @@
+This is a sample created to showcase the answer to [this stackoverflow question](https://stackoverflow.com/questions/68610057/how-to-properly-display-checkbox-form-controls-in-asp-net-core-views/68610657?noredirect=1#comment121267717_68610657)
