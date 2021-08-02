@@ -1,0 +1,15 @@
+﻿@page
+@model StackoverflowTest.Pages.TestFormModel
+@{
+  ViewData["Title"] = "How to build a form with a checkbox";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-page="TestForm">
+  <div class="form-check">
+    <input class="form-check-input" asp-for="Input.ShowUsername">
+    <label class="form-check-label" asp-for="Input.ShowUsername"></label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
